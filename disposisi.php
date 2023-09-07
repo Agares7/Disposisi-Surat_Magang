@@ -128,7 +128,6 @@
                                                 <th width="20%">Tujuan Disposisi</th>
                                                 <th width="28%">Isi Disposisi</th>
                                                 <th width="11%">Sifat<br/>Batas Waktu</th>';
-                                                // <th width="19%">Status Notifikasi WA</th>
                                             echo    '<th width="18%">Tindakan</th>
                                             </tr>
                                         </thead>
@@ -181,16 +180,6 @@
                                                     <td>'.$row['sifat'].'<br/>'.$d." ".$nm." ".$y.'</td>
                                                     
                                                     <td>';
-                                                    // <td>'.$row['status_wa'].'</td>
-                                                    // if ($row['status_wa']!='Terkirim'){
-                                                    //     if ($row['status_wa']!='Tertunda'){
-                                                    //     echo '<a class="btn small green waves-effect waves-light" href="?page=tsm&act=disp&id_surat='.$id_surat.'&sub=send&id_disposisi='.$row['id_disposisi'].'">
-                                                    //         <i class="material-icons">send</i> KIRIM NOTIF WA</a>';
-                                                    //     }else{
-                                                    //         echo '<a class="btn small green waves-effect waves-light" href="?page=tsm&act=disp&id_surat='.$id_surat.'&sub=cek&id_disposisi='.$row['id_disposisi'].'">
-                                                    //         <i class="material-icons">refresh</i> CEK STATUS</a>';  
-                                                    //     }
-                                                    // }
                                                     echo '<a class="btn small blue waves-effect waves-light" href="?page=tsm&act=disp&id_surat='.$id_surat.'&sub=edit&id_disposisi='.$row['id_disposisi'].'">
                                                             <i class="material-icons">edit</i> EDIT</a>
                                                         <a class="btn small deep-green waves-effect waves-light" href="?page=tsm&act=disp&id_surat='.$id_surat.'&sub=del&id_disposisi='.$row['id_disposisi'].'"><i class="material-icons">delete</i> DEL</a>

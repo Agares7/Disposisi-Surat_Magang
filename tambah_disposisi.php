@@ -57,19 +57,6 @@
                                         VALUES('$tujuan','$isi_disposisi','$sifat','$batas_waktu','$catatan','$id_surat','$id_user')");
 
                                     if($query == true){
-                                        // // Send Message
-                                        // $my_apikey = "KBN1E2ZUMEZ3PL2V37NY";
-                                        // $destination = "6282353323944";
-                                        // $message = "MESSAGE TO SEND";
-                                        // $api_url = "http://panel.rapiwha.com/send_message.php";
-                                        // $api_url .= "?apikey=". urlencode ($my_apikey);
-                                        // $api_url .= "&number=". urlencode ($destination);
-                                        // $api_url .= "&text=". urlencode ($message);
-                                        // $my_result_object = json_decode(file_get_contents($api_url, false));
-                                        // // echo "<br>Result: ". $my_result_object->success;
-                                        // // echo "<br>Description: ". $my_result_object->description;
-                                        // // echo "<br>Code: ". $my_result_object->result_code;
-
                                         $_SESSION['succAdd'] = 'SUKSES! Data berhasil ditambahkan';
                                         echo '<script language="javascript">
                                                 window.location.href="./admin.php?page=tsm&act=disp&id_surat='.$id_surat.'";

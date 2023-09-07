@@ -266,15 +266,7 @@
                                 }
                             ?>
                         </div>
-                        <!-- <div class="input-field col s6 " id="" style="display:none">
-                            <i class="material-icons prefix md-prefix ">looks_two</i>
-                            <input id="no_surat1" type="text" class="validate" name="no_surat1" maxlength="5" style="width: 50px;" required>  
-                            &ensp;/
-                            <input id="no_surat2" type="text" class="validate" name="no_surat2" maxlength="5" style="width: 50px;" readonly>  
-                            &ensp;/
-                            <input id="no_surat3" type="text" class="validate" name="no_surat3" maxlength="5" style="width: 50px;" readonly>  
-                            &ensp;/
-                            <input id="no_surat4" type="text" class="validate" name="no_surat4" maxlength="5" value="<?php echo date("Y"); ?>" style="width: 50px;" readonly>  
+                            <?php echo date("Y"); ?>  
 
                                 <?php
                                     if(isset($_SESSION['no_surat'])){

@@ -186,13 +186,13 @@
                     if(!empty($nama)){
                         echo '<h5 class="up">'.$nama.'</h5><br/>';
                     } else {
-                        echo '<h5 class="up">Fakultas Teknik</h5><br/>';
+                        echo '<h5 class="up">Default Nama</h5><br/>';
                     }
                     echo '<h3 id="aksara">ꦣꦶꦤꦱ꧀ꦥꦫꦶꦮꦶꦱꦠ</h3><br/>';
                     if(!empty($alamat)){
                         echo '<span id="alamat">'.$alamat.'</span>';
                     } else {
-                        echo '<span id="alamat">Jl. Yos Sudarso, Palangka, Kec. Jekan Raya, Kota Palangka Raya, Kalimantan Tengah 74874</span>';
+                        echo '<span id="alamat">Default Alamat</span>';
                     }
                     if(!empty($website)){
                         echo '<span id="alamat">  | Website : '.$website.' | Email : '.$email.'</span><br>';
